@@ -8,9 +8,18 @@
             "name": "Run Serial Connection",
             "type": "python",
             "request": "launch",
-            "program": "${file}",
+            "program": "serial_connection.py",
+            "console": "integratedTerminal",
+            "args": ["COM3", "115200", "ledoff"]
+        },
+        {
+            "name": "Run Serial GUI",
+            "type": "python",
+            "request": "launch",
+            "program": "serial_gui.py",
             "console": "integratedTerminal",
             "args": ["COM3", "115200", "ledon"]
         }
+
     ]
 }
