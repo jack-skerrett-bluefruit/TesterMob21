@@ -1,6 +1,4 @@
 import tkinter
-from tkinter.constants import END
-from typing import Text
 
 #from serial_connection import write_to_serial
 from mock_arduino import mock_arduino_response
