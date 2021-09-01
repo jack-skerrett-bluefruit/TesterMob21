@@ -19,6 +19,13 @@
             "program": "serial_gui.py",
             "console": "integratedTerminal",
             "args": ["COM3", "115200", "ledon"]
+        },
+        {
+            "name": "run python",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal"
         }
 
     ]
